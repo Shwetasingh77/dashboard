@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  overflow-y: auto;
 }
 
 .dashboard {
@@ -85,10 +86,11 @@
     height: 100%;
     align-items: center;
     /* uncomment the aic, and make mt -4rem */
-    margin-top: -3.5rem;
+    margin-top: -3rem;
+   
 }
 .content>div{
     width: 100%;
-    min-width: 75vh
+    min-width: 75vh;
+  
 }
-
