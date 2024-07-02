@@ -2,7 +2,8 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    color: white
+    color: white;
+   
 }
 .container>div{
     margin-top: 2rem;
