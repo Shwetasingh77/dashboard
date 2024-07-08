@@ -82,8 +82,9 @@ const StatisticsChart = () => {
     }
 
     return (
-        <ReactECharts option={option}
-        />
+        <div style={{ width: '100%', height: '150px', margin: 'auto' }}>
+        <ReactECharts option={option} style={{ height: '90%', width: '100%' }} />
+    </div>
     )
 }
 
