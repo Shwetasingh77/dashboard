@@ -1,6 +1,7 @@
 .table-container{
-    padding: 3rem 5rem;
-    overflow-y: auto;
+    padding: 0.5rem 0.5rem; 
+    max-width: 80%; 
+    margin: auto; 
 }
 .table-container>:nth-child(1)
 {
